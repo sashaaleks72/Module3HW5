@@ -4,10 +4,8 @@
     {
         public static void Main()
         {
-            AsyncMethods asyncMethods = new AsyncMethods();
-            string helloWorld = asyncMethods.GetHelloWorldTextAsync().Result;
-
-            Console.WriteLine(helloWorld);
+            var starter = new Starter();
+            starter.Run();
         }
     }
 }
